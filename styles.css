@@ -5,12 +5,13 @@
 :root {
   color-scheme: light dark;
 
+
   /* Peso, tamanho/altura da linha, família e família genérica */
-  --fonte-1: 600 clamp(1.375rem, calc(1.304rem + 0.357vw), 1.625rem)/150% "Poppins", sans-serif; /* min: 22px, max: 26px */
-  --fonte-2: 200 clamp(1.375rem, calc(1.304rem + 0.357vw), 1.625rem)/150% "Poppins", sans-serif; /* min: 22px, max: 26px */
+  --fonte-1: 600 clamp(1.875rem, calc(1.786rem + 0.446vw), 2.188rem)/150% "Poppins", sans-serif; /* min: 30px, max: 35px */
+  --fonte-2: 200 clamp(1.875rem, calc(1.786rem + 0.446vw), 2.188rem)/150% "Poppins", sans-serif; /* min: 30px, max: 35px */
   --fonte-3: 600 clamp(1rem, calc(0.964rem + 0.179vw), 1.125rem)/150% "Poppins", sans-serif; /* min: 16px, max: 18px */
-  --fonte-4: 400 clamp(0.75rem, calc(0.714rem + 0.179vw), 0.875rem)/150% "Poppins", sans-serif; /* min: 12px, max: 14px */
-  --fonte-5: 400 clamp(0.813rem, calc(0.777rem + 0.179vw), 0.938rem)/150% "Poppins", sans-serif; /* min: 13px, max: 15px */
+  --fonte-4: 400 clamp(0.813rem, calc(0.777rem + 0.179vw), 0.938rem)/150% "Poppins", sans-serif; /* min: 13px, max: 15px */
+  --fonte-5: 600 clamp(1.125rem, calc(1.054rem + 0.357vw), 1.375rem)/150% "Poppins", sans-serif; /* min: 18px, max: 22px */
   --fonte-6: 400 clamp(0.813rem, calc(0.777rem + 0.179vw), 0.938rem)/200% "Poppins", sans-serif; /* min: 13px, max: 15px */
 }
 
@@ -48,6 +49,7 @@
 }
 
 .cor-fonte-1 { color: var(--cor-fonte-1); }
+.cor-fonte-2 { color: var(--cor-fonte-2); }
 
 .cor-fundo-1 { background-color: var(--cor-fundo-1); }
 .cor-fundo-2 { background-color: var(--cor-fundo-2); }
@@ -149,7 +151,7 @@ input:hover, label:hover {
 .descricao {
   margin: auto;
   margin-bottom: 3rem;
-  max-width: 29rem;
+  max-width: 31rem;
   text-align: center;
 }
 
